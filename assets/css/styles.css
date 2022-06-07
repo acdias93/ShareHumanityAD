@@ -1,0 +1,145 @@
+#header {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/4031188.jpg") center / cover no-repeat;
+  filter: grayscale(61%) sepia(29%);
+}
+
+#video {
+  text-align: center;
+  background: #030303;
+}
+
+#change-phrase {
+  margin: 38px;
+  font-family: Charm, serif;
+  font-size: 40px;
+  color: rgb(243,229,184);
+}
+
+#change-phrase-2 {
+  margin: 0px;
+  margin-top: -30px;
+  font-size: 35px;
+  font-family: Charm, serif;
+  color: rgb(125,125,125);
+}
+
+@media (min-width: 576px) {
+  #change-phrase {
+    margin: 38px;
+    font-family: Charm, serif;
+    font-size: 60px;
+    color: rgb(243,229,184);
+  }
+}
+
+#video iframe {
+  width: 90%;
+  height: 400px;
+  margin: 41px;
+}
+
+@media (min-width: 768px) {
+  #video iframe {
+    width: 900px;
+    height: 500px;
+    margin: 41px;
+  }
+}
+
+#about-us {
+  background: rgba(0,0,0,0.68);
+}
+
+#go-humanitary-map {
+  background: rgba(53,3,5,0.61);
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  border-style: none;
+}
+
+#resources {
+  background: rgb(247,239,239);
+}
+
+#resources h2 {
+  font-size: 57px;
+  color: var(--bs-gray-900);
+  font-weight: bold;
+}
+
+#resources .w-lg-50 {
+  color: rgb(0,0,0);
+  font-size: 21px;
+  font-style: italic;
+  /*padding: 0;*/
+}
+
+body {
+  background: rgb(0,0,0);
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+  background: rgba(102,74,74,0.31);
+  margin: 5px;
+}
+
+span {
+  background: url("../../assets/img/logo.png") center / cover no-repeat;
+  width: 77.0469px;
+  height: 44px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255,255,255);
+}
+
+.btn {
+}
+
+#sign-in-button {
+  color: rgb(0,0,0);
+  background: rgb(230,215,176);
+  font-weight: bold;
+}
+
+#join-us-container {
+  height: 600px;
+  /*background: url("../../assets/img/2376294.jpg") center / 80% no-repeat;*/
+}
+
+.nav-link {
+  font-size: 14px;
+  text-align: center;
+}
+
+.HI-image {
+  filter: saturate(62%) sepia(19%);
+  text-align: left;
+  width: 411.656px;
+  height: 255.969px;
+  padding: 6px;
+  margin: 6px;
+}
+
+.HI-image: hover {
+  /*type: bounce;*/
+  margin: 100px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+}
+
+.HI-image:hover {
+  filter: blur(7px) grayscale(38%) hue-rotate(0deg);
+}
+
